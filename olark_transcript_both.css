@@ -1,0 +1,24 @@
+olark_transcript_both.css
+
+// strips out names and automatic messages from the system for easier word count & wordle-making in Olark
+
+#transcripts .page table#messages tr.notificationToOperator {
+display: none;
+}
+
+#transcripts .page table#messages td.author {
+display: none;
+}
+
+#transcripts .page table#messages tr.notificationToOperator {
+display: none;
+}
+
+tr.url_change, #transcripts .page table#messages tr.chat_started_location, #transcripts .page table#messages tr.chat_started_referrer, #transcripts .page table#messages tr.notificationToOperator {
+  display: none;
+}
+
+
+#transcripts .page table#messages td.time {
+  display: none;
+}
